@@ -1,0 +1,11 @@
+.card-title {
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.anim-zoomin:hover{
+  transform:scale(1.02);
+  transition-duration:.5s;
+}
+

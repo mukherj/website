@@ -1,0 +1,13 @@
+.container {
+  max-width:unset;
+}
+
+@media(max-width: 799px) {
+  #div {
+    flex-direction:column-reverse;
+  }
+  #div2 {
+    margin-bottom:20px;
+  }
+  
+}

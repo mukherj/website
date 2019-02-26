@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
+@import "~bootstrap/scss/bootstrap";
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+header {
+  background-color: cadetblue;
+  font-family: Arial, Helvetica, sans-serif;
+  border: double;
+  border-color: aquamarine;
+  border-radius: 20px 4px;
+}
+
+body {
+  background: white;
+  padding-top:3em;
+  font-family: 'Raleway', 'Arial';
+  color: darkslategray;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 0 2em 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+ul li a {
+  font-size: 1.5em;
+}
+
+a {
+  color: darkslateblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: brown;
+  text-decoration: none;
+}
+
