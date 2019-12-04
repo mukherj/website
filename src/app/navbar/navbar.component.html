@@ -1,7 +1,8 @@
 <nav class="navbar nav-tabs navbar-expand-md navbar-light fixed-top" style="background-color: #e3f2fd;">
-  <span class="navbar-brand">
+  <a [routerLink]="['']"><span class="navbar-brand">
     <img src="assets/images/logo.png" height="50" style="padding-right:5px" />
   </span>
+  </a>
 
   <button class="navbar-toggler hidden-sm-up" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed" data-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -9,9 +10,6 @@
 
   <div [ngbCollapse]="isNavbarCollapsed" class="collapse navbar-collapse" id="navbarsDefault">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item" [routerLinkActive]="['active']">
-        <a class="nav-link" [routerLink]="['home']" (click)="isNavbarCollapsed = true">HOME</a>
-      </li>
       <li class="nav-item" [routerLinkActive]="['active']">
         <a class="nav-link" [routerLink]="['portfolio']" (click)="isNavbarCollapsed = true">PORTFOLIO</a>
       </li>
