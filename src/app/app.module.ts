@@ -4,7 +4,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { ArtComponent } from './art/art.component';
-import { AttentionseekerComponent } from './attentionseeker/attentionseeker.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -16,7 +15,6 @@ import { AppRoutingModule } from './/app-routing.module';
   declarations: [
     AppComponent,
     ArtComponent,
-    AttentionseekerComponent,
     ContactComponent,
     HomeComponent,
     NavbarComponent,
